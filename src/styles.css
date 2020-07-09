@@ -1,0 +1,217 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* navigation bar */
+.navbar {
+  position: relative;
+  width: 100;
+  font-size: 2vh;
+  padding: 2vh 1vh;
+}
+
+.navbar-toggler {
+  font-size: 2vh;
+}
+
+.logo {
+  height: 5vh;
+  margin: 0.5vh 1vh 1vh 0vh;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.nav-item {
+  padding: 0 1.125em;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.big-image {
+  width: 100%; /* width of container */
+  height: 85vh; /* height of container */
+  object-fit: cover;
+}
+
+.card-image {
+  width: 17rem;
+  height: 17rem;
+}
+
+/* Container holding the image and the text */
+.room-container {
+  position: relative;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.room-image {
+  width: 100vw; /* width of container */
+  height: 100vh; /* height of container */
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.image-text {
+  position: absolute;
+  text-align: left;
+  padding: 0em 0em 0em 1vw;
+  bottom: 50%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 7vh;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-text {
+  position: relative;
+  text-align: left;
+  margin-top: 1em;
+  font-size: 4.5vh;
+  left: 1vh;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.room-text {
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  bottom: 70vh;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.room-p {
+  margin: 2em;
+}
+
+.contact-p {
+  bottom: 1em;
+  text-align: center;
+  padding: 2em 1vh;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.visit-text {
+  position: relative;
+  text-align: left;
+  left: 1vh;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 4vh;
+}
+
+.p {
+  position: relative;
+  text-align: left;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+footer {
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  float: left;
+}
+
+footer p {
+  color: grey;
+  display: inline;
+  font-size: 2vh;
+}
+
+.social {
+  margin-right: 10px;
+  position: relative;
+  color: black;
+  display: inline;
+}
+
+.icon-air {
+  margin-left: 5px;
+  margin-bottom: 3px;
+  height: 2.5vh;
+  width: 2.5vh;
+}
+
+.icon-insta {
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-bottom: 3px;
+}
+
+.btn {
+  display: inline;
+}
+
+.email-form {
+  position: relative;
+  top: 1em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.custom-form {
+  margin-bottom: 3em;
+}
+
+.copy-success {
+  position: absolute;
+  bottom: 55vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vh;
+  width: 100%;
+}
+
+.rooms-btn {
+  position: absolute;
+  text-align: center;
+  bottom: 60vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vh;
+  width: 20vh;
+}
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto auto 3rem;
+  max-width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.bedroom {
+  width: 50px;
+  height: 50px;
+}
